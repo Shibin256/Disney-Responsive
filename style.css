@@ -1,0 +1,358 @@
+body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: DisneyRoman;
+    src: url(fonts/InspireTWDC-Roman-0679a1b070d1.woff);
+}
+
+@font-face {
+    font-family: DisneyRegular;
+    src: url(fonts/matterhorn-regular-eed88f0756d6.woff);
+}
+
+@font-face {
+    font-family: DisneyBold;
+    src: url(fonts/notosans-bold-0453182f82c7.woff);
+}
+
+@font-face {
+    font-family: DisneyNoto;
+    src: url(fonts/notosans-regular-fbe46f26a338.woff);
+}
+
+@font-face {
+    font-family: DisneyPxi;
+    src: url(fonts/pxiEyp8kv8JHgFVrJJfecg.woff2);
+}
+
+
+/* This styles the navigation bar */
+.NavbarOptions{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'DisneyBold'; 
+}
+/* Dropdown menu */
+.Dmenu{
+    width: 100vw !important;
+    margin-left: -124px;
+    background-color: #232b2d;
+    padding-left: 50px;
+}
+
+
+    /*Dmenu:hover .dropdown-item {display: block !important; } */
+
+.Amenu:hover{
+    color: white;
+    background-color: #232b2d;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-toggle::after{
+    border-right: 0;
+    border-left: 0;
+    
+}
+
+/* .dropdown-item:active{
+    background-color: #232b2d;
+} */
+
+
+
+
+
+
+/* $images Styles */
+.fourimage{
+    margin-top: 10px;
+}
+
+.image1div{
+    width: 100vw;
+}
+.ImageTransition {
+    overflow: hidden;
+}
+
+.images:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.05);
+}
+
+/* This styles for image second section text*/
+.Quates {
+    width: 100%;
+    height: 31%;
+    background: linear-gradient(0deg, rgb(0 0 0 / 87%) 0%, transparent 100%);
+    margin-top: -149px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-family: 'disneyregular';
+    font-size: 18px;
+    color: white;
+    padding-top: 51px
+}
+/* shop know option style */
+.ShopKnow {
+    font-family: 'disneybold';
+    font-size: 1rem;
+}
+
+.Imagesdiv {
+    overflow: hidden;
+    width: 100%;
+    height: 30.25em;
+}
+
+
+
+
+
+
+.Finalwidth{
+    width: 91%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-left: 6%;
+}
+.FinalSection {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    background-color: #eeeeee;
+}
+
+.Headings {
+    line-height: 1.875rem;
+    font-size: 1.875rem;
+    font-family: 'disneyNoto';
+}
+
+.Featured {
+    padding-left: 1%;
+    padding-top: 5%;
+}
+
+/* Play Button Style*/
+/* .playbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+} */
+
+
+.FinalSectionFont {
+    color: #272727;
+    font-size: 18px;
+    padding-left: 4%;
+    padding-top: 3%;
+    font-family: 'DisneyNoto';
+}
+
+.paragraph {
+    font-size: 14px;
+}
+
+.FinalSectionFont2 {
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 4%;
+    padding-top: 3%;
+    font-family: 'DisneyNoto';
+}
+
+.FinalSectiontBoldText {
+    font-family: 'disneybold';
+    font-size: 13px;
+    margin-top: -10px
+}
+.DisneyJunior {
+    font-family: 'disneybold';
+    font-size: 10px;
+}
+
+
+
+
+
+/* Footer section starts */
+
+
+.Footer {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.Footerwidth{
+    width: 94%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: 3%;
+}
+
+.img-fluid{
+    height: 100%;
+}
+
+.FooterLogo{
+    margin-top:4em ;
+    width: 7.65em;
+}
+
+.footerQuates{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'DisneyBold';
+    margin-top: 5.5em;
+    word-spacing: 1cm;
+}
+.Socialmedia{
+    
+    margin-top: 5em;
+    display: flex;
+    justify-content: end;
+}
+.FooterLogo2{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+
+.FooterOption{
+    font-family: Matterhorn, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    color: #4c4c4c;
+    font-weight: 200;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    font-family: Matterhorn, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    color: #000000;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 992px) {
+    /* .mainlogo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: -37px;
+    } */
+    
+.Dmenu{
+    width: 100% !important;
+    margin-left: -67px;
+    background-color: #ffffff;
+    padding-left: 50px;
+    border-top: 1px solid black;
+}
+/*    
+.Cruise{
+    border: 1px solid black;
+    width:100%;
+} */
+.Amenu:hover{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+.dropdown-item{
+    color: rgb(0, 0, 0);
+}
+
+.FooterLogo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footerQuates{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'DisneyBold';
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.Socialmedia{
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+.parks{
+    display: flex;
+    justify-content: end;
+}
+.whats{
+    display: flex;
+    justify-content: start;
+}
+
+}
+
+
+
+
+@media only screen and (max-width:575px) {
+    
+    .ImageTransition{
+        display: flex;
+        justify-content: center !important;
+         width: 100% !important;
+    }
+    .Imagesdiv{
+        width: 100% !important;
+    }
+    .FinalSectionFont{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .FinalSectionFont2{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+    
+.footerQuates{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'DisneyBold';
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+.Socialmedia{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+.FooterLogo2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+}
+
+
