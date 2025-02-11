@@ -5,7 +5,7 @@ body {
 * {
     box-sizing: border-box;
 }
-
+/* FOnts of the web page */
 @font-face {
     font-family: DisneyRoman;
     src: url(fonts/InspireTWDC-Roman-0679a1b070d1.woff);
@@ -33,65 +33,98 @@ body {
 
 
 /* This styles the navigation bar */
-.NavbarOptions{
+.NavbarOptions {
     font-size: 14px;
     font-weight: 600;
-    font-family: 'DisneyBold'; 
+    font-family: 'DisneyBold';
 }
-/* Dropdown menu */
-.Dmenu{
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0rem;
+}
+.navCruise {
+    margin-top: 0.3em;
+}
+.navwhats {
+    margin-top: 0.3em;
+}
+
+/* Dropdown menu Styles */
+.Dmenu {
     width: 100vw !important;
     margin-left: -124px;
     background-color: #232b2d;
     padding-left: 50px;
 }
 
-
-    /*Dmenu:hover .dropdown-item {display: block !important; } */
-
-.Amenu:hover{
-    color: white;
-    background-color: #232b2d;
-}
-.dropdown-item{
-    color: white;
-}
-.dropdown-toggle::after{
-    border-right: 0;
-    border-left: 0;
-    
-}
+/*Dmenu:hover .dropdown-item {display: block !important; } */
 
 /* .dropdown-item:active{
     background-color: #232b2d;
 } */
 
-
-
-
-
-
-/* $images Styles */
-.fourimage{
-    margin-top: 10px;
+.dmenulist:hover {
+    color: white;
+    background-color: #232b2d;
+}
+.dropdown-item {
+    color: white;
+}
+.dropdown-toggle::after {
+    border-right: 0;
+    border-left: 0;
+}
+/* Horisontal line */
+hr {
+    margin: 0.1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
 }
 
-.image1div{
+/* images Styles */
+.fourimage {
+    margin-top: 10px;
+}
+.image1div {
     width: 100vw;
 }
 .ImageTransition {
     overflow: hidden;
 }
-
 .images:hover {
     transition: all 1s ease-in-out;
     transform: scale(1.05);
 }
 
+.Imagesdiv {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+
+.Humanimg {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.Spider-Man {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
 /* This styles for image second section text*/
 .Quates {
     width: 100%;
-    height: 31%;
+    height: 8.31em;
     background: linear-gradient(0deg, rgb(0 0 0 / 87%) 0%, transparent 100%);
     margin-top: -149px;
     position: relative;
@@ -102,24 +135,15 @@ body {
     color: white;
     padding-top: 51px
 }
+
 /* shop know option style */
 .ShopKnow {
     font-family: 'disneybold';
     font-size: 1rem;
 }
 
-.Imagesdiv {
-    overflow: hidden;
-    width: 100%;
-    height: 30.25em;
-}
-
-
-
-
-
-
-.Finalwidth{
+/* Final section Styles */
+.Finalwidth {
     width: 91%;
     padding-right: var(--bs-gutter-x, .75rem);
     padding-left: var(--bs-gutter-x, .75rem);
@@ -131,27 +155,6 @@ body {
     margin-top: 20px;
     background-color: #eeeeee;
 }
-
-.Headings {
-    line-height: 1.875rem;
-    font-size: 1.875rem;
-    font-family: 'disneyNoto';
-}
-
-.Featured {
-    padding-left: 1%;
-    padding-top: 5%;
-}
-
-/* Play Button Style*/
-/* .playbutton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-} */
-
-
 .FinalSectionFont {
     color: #272727;
     font-size: 18px;
@@ -159,11 +162,9 @@ body {
     padding-top: 3%;
     font-family: 'DisneyNoto';
 }
-
 .paragraph {
     font-size: 14px;
 }
-
 .FinalSectionFont2 {
     color: #272727;
     text-align: center;
@@ -172,68 +173,74 @@ body {
     padding-top: 3%;
     font-family: 'DisneyNoto';
 }
-
 .FinalSectiontBoldText {
     font-family: 'disneybold';
     font-size: 13px;
     margin-top: -10px
 }
+.Headings {
+    line-height: 1.875rem;
+    font-size: 1.875rem;
+    font-family: 'disneyNoto';
+}
+.Featured {
+    padding-left: 1%;
+    padding-top: 5%;
+}
+
 .DisneyJunior {
     font-family: 'disneybold';
     font-size: 10px;
 }
-
-
-
-
+.spidermanpic{
+    position: relative;
+}
+.buttonpic{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /* Footer section starts */
-
-
 .Footer {
     background-color: white;
     width: 100%;
     height: 100%;
 }
 
-.Footerwidth{
+.Footerwidth {
     width: 94%;
     padding-right: var(--bs-gutter-x, .75rem);
     padding-left: var(--bs-gutter-x, .75rem);
     margin-right: auto;
     margin-left: 3%;
 }
-
-.img-fluid{
+.img-fluid {
     height: 100%;
 }
-
-.FooterLogo{
-    margin-top:4em ;
+.FooterLogo {
+    margin-top: 4em;
     width: 7.65em;
 }
-
-.footerQuates{
+.footerQuates {
     font-size: 14px;
     font-weight: 600;
     font-family: 'DisneyBold';
     margin-top: 5.5em;
     word-spacing: 1cm;
 }
-.Socialmedia{
-    
+.Socialmedia {
     margin-top: 5em;
     display: flex;
     justify-content: end;
 }
-.FooterLogo2{
+.FooterLogo2 {
     display: flex;
     justify-content: center;
     margin-top: 3em;
 }
-
-
-.FooterOption{
+.FooterOption {
     font-family: Matterhorn, Helvetica, sans-serif;
     font-size: 0.75rem;
     color: #4c4c4c;
@@ -242,8 +249,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
-.copyright{
+.copyright {
     font-family: Matterhorn, Helvetica, sans-serif;
     font-size: 0.75rem;
     color: #000000;
@@ -251,108 +257,146 @@ body {
     display: flex;
     justify-content: center;
 }
+hr:not([size]) {
+    height: 0px;
+}
 
 
+/* Styles after page shrink to belw 992px */
 @media only screen and (max-width: 992px) {
-    /* .mainlogo {
+    /* Main logo align to center */
+    .mainlogo {
         width: 100%;
         display: flex;
         justify-content: center;
         margin-top: -37px;
-    } */
+        margin-left: 3em;
+        padding-right: 3em;
+    }
+    .navCruise {
+        margin-top: 1.3em;
+    }
+    .navwhats {
+        margin-top: 0.3em;
+    }
+    /* dropdown menu */
+    .Dmenu {
+        width: 103% !important;
+        margin-left: -13px;
+        background-color: #f5f5f5;
+        padding-left: 0px;
+        margin-bottom: -1em;
+    }
+   
+    .dmenulist:hover {
+        color: rgb(0, 0, 0);
+        background-color: #ffffff;
+    }
+    .dropdown-item {
+        color: rgb(0, 0, 0);
+    }
+    .dropdown-items {
+        display: block;
+        border-bottom: 1px solid #dfdfdf;
+        margin-right: -1em;
+        margin-left: -1em;
+        padding-left: 1em;
+    }
+    .dropdown-items-last-word{
+        display: block;
+    }
+    .dropdown-hr {
+        margin-bottom: -1px;
+    }
+
+    /* Footer styles */
+    .FooterLogo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .footerQuates {
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'DisneyBold';
+        margin-top: 2em;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .Socialmedia {
+        margin-top: 1.5em;
+        display: flex;
+        justify-content: center;
+    }
+    .parks {
+        display: flex;
+        justify-content: end;
+    }
+    .whats {
+        display: flex;
+        justify-content: start;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        margin-bottom: -1.3em;
+    }
+    hr:not([size]) {
+        height: 0.25px;
+        margin-left: -1em;
+        margin-right: -.89em;
+        margin-top: 0.25em;
+    }
+    .bolder {
+        height: 1.3px !important;
+        color: black !important;
+        opacity: 1;
+    }
     
-.Dmenu{
-    width: 100% !important;
-    margin-left: -67px;
-    background-color: #ffffff;
-    padding-left: 50px;
-    border-top: 1px solid black;
-}
-/*    
-.Cruise{
-    border: 1px solid black;
-    width:100%;
-} */
-.Amenu:hover{
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;
-}
-.dropdown-item{
-    color: rgb(0, 0, 0);
 }
 
-.FooterLogo{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.footerQuates{
-    font-size: 14px;
-    font-weight: 600;
-    font-family: 'DisneyBold';
-    margin-top: 2em;
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-}
-.Socialmedia{
-    margin-top: 1.5em;
-    display: flex;
-    justify-content: center;
-}
-.parks{
-    display: flex;
-    justify-content: end;
-}
-.whats{
-    display: flex;
-    justify-content: start;
-}
-
-}
-
-
-
-
+/* Styles when page shrink less than 575px */
 @media only screen and (max-width:575px) {
-    
-    .ImageTransition{
+    .ImageTransition {
         display: flex;
         justify-content: center !important;
-         width: 100% !important;
-    }
-    .Imagesdiv{
         width: 100% !important;
     }
-    .FinalSectionFont{
+    .Imagesdiv {
+        width: 100% !important;
+    }
+    .FinalSectionFont {
         display: flex;
         justify-content: center;
         align-items: baseline;
     }
-    .FinalSectionFont2{
+    .FinalSectionFont2 {
         display: flex;
         justify-content: center;
         align-items: baseline;
     }
-    
-.footerQuates{
-    font-size: 14px;
-    font-weight: 600;
-    font-family: 'DisneyBold';
-    margin-top: 1em;
-    display: flex;
-    justify-content: center;
+    .footerQuates {
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'DisneyBold';
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+    }
+    .Socialmedia {
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+    }
+    .FooterLogo2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 2em;
+    }
+    .FooterOption {
+        display: flex;
+        justify-content: center;
+    }
 }
-.Socialmedia{
-    margin-top: 1em;
-    display: flex;
-    justify-content: center;
-}
-.FooterLogo2{
-    display: flex;
-    justify-content: center;
-    margin-top: 2em;
-}
-}
-
-
